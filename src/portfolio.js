@@ -129,7 +129,7 @@ const achievementSection = {
     {
       title: "CompTIA A+ Core 1",
       subtitle: "Issued by Dion Training (Udemy)",
-      image: require("./assets/images/CompTIA+ Core 1 Certificate of Completion copy.png"),
+      image: require("./assets/images/certificate.png"),
       imageAlt: "CompTIA A+",
       footerLink: []
     },
