@@ -2,56 +2,26 @@
   "name": "techofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ehsan-syed.vercel.app",
+  "type": "module",
   "dependencies": {
-    "colorthief": "^2.3.0",
-    "dotenv": "^16.3.1",
-    "gh-pages": "^6.1.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "^5.0.1",
-    "react-twitter-embed": "^3.0.3",
+    "react-twitter-embed": "^4.0.0",
     "sass": "^1.71.0"
   },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.0",
+    "@testing-library/user-event": "^14.5.1",
+    "dotenv": "^16.3.1"
+  },
   "scripts": {
-    "predeploy": "npm run build",
-    "prestart": "node fetch.js",
-    "prebuild": "node fetch.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,jsx,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,jsx,css,json,scss}\""
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.3%",
-      "not ie 11",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      ">0.3%",
-      "not ie 11",
-      "not dead",
-      "not op_mini all",
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@testing-library/react": "^14.1.0",
-    "prettier": "^3.2.5"
+    "eject": "react-scripts eject"
   }
 }
