@@ -24,7 +24,7 @@ const greeting = {
 };
 
 const socialMediaLinks = {
-  github: "https://github.com/ehsanul34726",
+  github: "https://github.com/ehsan34726",
   linkedin: "https://www.linkedin.com/in/ehsanul001",
   gmail: "ehsansyed10@gmail.com",
   twitter: "x.com/karimehsan3",
@@ -78,7 +78,7 @@ const techStack = {
   experience: [
     { Stack: "IT Support & Infrastructure", progressPercentage: "99%" },
     { Stack: "Networking & Systems", progressPercentage: "90%" },
-    { Stack: "Scripting & Web", progressPercentage: "88%" }
+    { Stack: "Scripting & Web", progressPercentage: "95%" }
   ],
   displayCodersrank: true
 };
@@ -111,15 +111,41 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "true",
-  display: true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
+// Some big projects you have worked on
+
 const bigProjects = {
-  title: "Projects",
-  subtitle: "Real-world work from OrderVox, Freelancing & POS systems",
-  projects: [],
-  display: false
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    }, 
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
 };
 
 const achievementSection = {
@@ -149,21 +175,21 @@ const blogSection = {
   subtitle: "I write about troubleshooting, tech, and systems support.",
   displayMediumBlogs: "false",
   blogs: [],
-  display: true
+  display: false
 };
 
 const talkSection = {
   title: "Talks",
   subtitle: emoji("I LOVE TO SHARE AND TEACH 😅"),
   talks: [],
-  display: true
+  display: false
 };
 
  const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "Enjoy my insights and knowledge in support systems.",
   podcast: [],
-  display: true
+  display: false
 };
 
 const resumeSection = {
